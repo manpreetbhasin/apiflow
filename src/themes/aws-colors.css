@@ -1,0 +1,23 @@
+:root {
+  /* AWS Service Colors */
+  --aws-ec2-color: #FF9900;
+  --aws-lambda-color: #9D5025;
+  --aws-s3-color: #E93C31;
+  --aws-dynamodb-color: #1A476F;
+  --aws-rds-color: #3B48CC;
+  --aws-cloudfront-color: #8C4FFF;
+  --aws-api-gateway-color: #407AFC;
+  --aws-sns-color: #FF4F8B;
+  --aws-sqs-color: #FF9900;
+  
+  /* AWS Service Background Colors (lighter versions) */
+  --aws-ec2-bg: rgba(255, 153, 0, 0.1);
+  --aws-lambda-bg: rgba(157, 80, 37, 0.1);
+  --aws-s3-bg: rgba(233, 60, 49, 0.1);
+  --aws-dynamodb-bg: rgba(26, 71, 111, 0.1);
+  --aws-rds-bg: rgba(59, 72, 204, 0.1);
+  --aws-cloudfront-bg: rgba(140, 79, 255, 0.1);
+  --aws-api-gateway-bg: rgba(64, 122, 252, 0.1);
+  --aws-sns-bg: rgba(255, 79, 139, 0.1);
+  --aws-sqs-bg: rgba(255, 153, 0, 0.1);
+}

@@ -1,0 +1,77 @@
+.react-flow {
+  background: var(--bg-color);
+}
+
+.react-flow__node {
+  border-radius: 4px;
+  border: 2px solid var(--component-border);
+  padding: 10px;
+  color: var(--text-color);
+  font-size: 12px;
+  text-align: center;
+  background: var(--component-bg);
+}
+
+.react-flow__edge {
+  stroke: var(--text-color);
+  stroke-width: 2;
+}
+
+.react-flow__edge-path {
+  stroke: var(--text-color);
+}
+
+.react-flow__controls {
+  background: var(--component-bg);
+  border-radius: 8px;
+  padding: 8px;
+  border: 1px solid var(--accent-color);
+  box-shadow: 0 4px 12px var(--panel-shadow);
+}
+
+.react-flow__controls-button {
+  background: var(--sidebar-bg);
+  border: 1px solid var(--accent-color);
+  color: var(--text-color);
+  border-radius: 4px;
+  padding: 4px;
+  margin: 2px;
+  transition: all 0.2s ease;
+}
+
+.react-flow__controls-button:hover {
+  background: var(--accent-color);
+  color: var(--text-color);
+}
+
+.react-flow__controls-button svg {
+  fill: var(--text-color);
+  width: 16px;
+  height: 16px;
+}
+
+.react-flow__controls-button:hover svg {
+  fill: var(--text-color);
+}
+
+.react-flow__attribution {
+  background: transparent;
+  color: var(--text-color);
+}
+
+.react-flow__background {
+  background: var(--bg-color);
+}
+
+.react-flow__edge.selected .react-flow__edge-path {
+  stroke: var(--accent-color);
+}
+
+.react-flow__handle {
+  background: var(--accent-color);
+  border: 2px solid var(--component-border);
+}
+
+.react-flow__handle:hover {
+  background: var(--accent-hover);
+}

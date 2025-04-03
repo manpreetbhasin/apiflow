@@ -1,0 +1,19 @@
+.dark {
+  --bg-color: #000000;
+  --text-color: #ffffff;
+  --sidebar-bg: #111111;
+  --sidebar-border: #333333;
+  --component-bg: #111111;
+  --component-border: #333333;
+  --component-hover: rgba(0, 229, 255, 0.2);
+  --panel-bg: #111111;
+  --panel-shadow: rgba(0, 0, 0, 0.3);
+  --input-border: #333333;
+  --accent-color: #00e5ff;
+  --accent-hover: #00b8cc;
+}
+
+.dark body {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+}
